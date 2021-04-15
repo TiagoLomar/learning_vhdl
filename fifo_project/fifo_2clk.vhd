@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-
+--
 entity fifo_2clk is
 	generic(data_width : integer := 4;
 			  fifo_width : integer := 10);
